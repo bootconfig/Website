@@ -1,0 +1,1 @@
+document.getElementById("date").innerHTML = Date().slice(0, 10);
