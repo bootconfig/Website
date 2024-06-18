@@ -1,7 +1,9 @@
-Project:
-  Website is a repository that I'm practicing with to enhance my web development skills.
+# ![logo](https://github.com/bootconfig/Website/blob/master/logo.svg) Website
 
-Goal:
-  Currently, I hope to design a webpage that features tutorials on the open source upbge game engine.
-  Upbge is an emerging feature rich game engine with a real time renderer eevee.
-  A link to the home page on the upbge website can be found here: https://upbge.org/#/
+  Upbge is an emerging feature rich game engine which uses a real time renderer named eevee and is updated to support features found in blender.
+  
+  The aim of this website project is to provide tutorials on how to professionally use upbge to create great projects with tutorials from me!
+  
+https://upbge.org/#/
+
+https://www.blender.org/download/
