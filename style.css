@@ -1,15 +1,61 @@
 body {
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-auto-rows: 75px;
+    grid-template-areas:
+        "logo home tutorials python about"
+
+    
 }
 .logo {
-    padding:20px;
-    margin:0px;
-    border-style:none;
-    background-color:white;
+    grid-area: logo;
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+    background-color :white;
+}
+
+.logo:hover {
+    background-color: white;
 }
 
 p {
     font-size:20px;
     padding:20px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button {
+    padding: 15px;
+    color: white;
+    background-color: gray;
+}
+
+.buttons {
+    grid-area: buttons;
+    align-content:first;
+    
+}
+
+.home {
+    grid-area: home;
+}
+
+.tutorials {
+    grid-area: tutorials;
+}
+
+.python {
+    grid-area: python;
+}
+
+.about {
+    grid-area: about;
 }

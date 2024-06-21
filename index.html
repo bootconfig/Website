@@ -6,10 +6,13 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        
-        <button class="logo" onclick="refresh()"><img src="/logo.svg" alt="logo"></button>
-        <button onclick="refresh()">Home</button>
-        <button onclick="alert('This Tutorial Page is About Learning UPBGE!')">About</button>
+        <nav class="grid">
+            <button class="logo" onclick="refresh()"><img src="/logo.svg" alt="logo"></button>
+            <button class="home" onclick="refresh()">Home</button>
+            <button class="tutorials" onclick="window.open('/tutorials.html', '_blank')">Tutorials</button>
+            <button class="python" onclick="window.open('/python.html', '_blank')">Python</button>
+            <button class="about" onclick="window.open('/about.html', '_blank')">About</button>
+        </nav>
         
         <p>Tutorial Date: 6/17/2024</p>
         <p>Today's Date: <span id="date"></span></p>
@@ -25,6 +28,7 @@
         <button onclick="pgup()">return to top of page</button>
         <script src="/setup.js"></script>
         <script src="/script.js"></script>
+        <script src="/math.js"></script>
     </body>
     
 </html>
